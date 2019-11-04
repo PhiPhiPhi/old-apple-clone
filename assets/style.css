@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    background-color: transparent;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+
+}
+.main_container {
+    display: flex;
+    align-self: center;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+}
+
+header {
+
+    width: 1440px;
+    background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+    background-size: 1440px 1315px;
+    margin: 0 1px 2px 1px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 150px 0px;
+}
+
+.header_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header_action {
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    height: 31px;
+    margin: 25px 0;
+}
+
+.iphone_section_item img {
+    float: left;
+    width: 25%;
+    padding: 0 1px;
+}
+section {
+  
+    display: block;
+   
+}
+footer {
+    height: 10%;
+}
+
+nav {
+
+    justify-content: center;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+    height: 36px;
+    position: relative;
+    display: block;
+    width: 980px;
+    top: -24px;
+    margin: 0 auto;
+    text-align: left;
+    z-index: 9998;
+    border-radius: 4px;
+    box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 845px;
+    -webkit-transition: width 0.3s ease-in-out;
+    table-layout: fixed;
+    text-align: left;
+}
+
+nav ul li {
+    width: auto; */
+    background: none;
+    display: block;
+    float: none;
+    text-decoration: none;
+    border-width: 0 2px 0 1px;
+    border-style: solid;
+    -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1{
+    height: 100px;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
