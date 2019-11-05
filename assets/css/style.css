@@ -88,7 +88,16 @@ nav {
   text-align: left;
   z-index: 9998;
   border-radius: 4px;
-  box-shadow:rgba(0, 0, 0, 0.3) 0 1px 2px;
+  box-shadow:
+    rgba(
+      0,
+      0,
+      0,
+      0.3
+    )
+    0
+    1px
+    2px;
 }
 
 nav ul {
@@ -101,6 +110,10 @@ nav ul {
   text-align: left;
 }
 
+li {
+  list-style-type: none;
+}
+
 nav ul li {
   width: 102px;
   height: 36px;
@@ -111,6 +124,16 @@ nav ul li {
   border-width: 0 2px 0 1px;
   border-style: solid;
   -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+p a,
+span a {
+  color: #08c;
 }
 
 nav ul li a {
@@ -126,9 +149,8 @@ nav ul li a {
 }
 
 nav ul li:hover {
-  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #3f3f3f), color-stop(0.5, #383838), color-stop(0.51, #434343), color-stop(1, #555555));
-  background-image: -moz-linear-gradient(center bottom, #3f3f3f 0%, #383838 50%, #434343 51%, #555 100%);
-  background-color:#383838; /* For IE */
+  background-image: -moz-linear-gradient(left bottom, #3f3f3f 0%, #383838 50%, #434343 51%, #555 100%);
+  background-color: #383838; /* For IE */
   -moz-box-shadow: inset 0 0 5px 5px #535353;
   -webkit-box-shadow: inset 0 0 5px 5px #535353;
   box-shadow: inset 0 0 5px 5px #535353;
@@ -146,22 +168,9 @@ nav ul li span {
   top: 3px;
 }
 
-li {
-  list-style-type: none;
-}
-
 .hero_title {
   height: 100px;
   overflow: hidden;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-}
-
-p a, span a {
-  color: #08c;
 }
 
 .footer_nav a {
@@ -205,7 +214,7 @@ form {
   width: 100%;
   height: auto;
   background-image: none;
-  background-color: rgba(255,255,255,.1);
+  background-color: rgba(255, 255, 255, 0.1);
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
   border-radius: 12px;
@@ -213,7 +222,6 @@ form {
   -moz-box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
   box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
   color: #fff;
-  background: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png) 0 0 no-repeat;
 }
 
 form div input {
